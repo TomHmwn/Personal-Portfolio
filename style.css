@@ -2,6 +2,9 @@ body {
   font-family: 'Raleway', sans-serif;
   background: rgba(242, 242, 242, .6);
   margin: 0;
+  padding: 0;
+  height: 100vh;
+  
 }
 
 * {
@@ -9,21 +12,7 @@ body {
 }
 
 /*NAVBAR*/
-.navbar {
-  background-color: #31b0d5;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  display: flex;
-  justify-content: center;
-}
 
-.navbar a {
-  font-weight: 200;
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
 .anchor {
   display: block;
@@ -98,6 +87,7 @@ body {
   /*sets up flexbox*/
   display: flex;
   flex-direction: column;
+  
 }
 
 .row {
@@ -114,8 +104,7 @@ body {
 
 .main-content {
   flex: 0 0 66.6%;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+ 
 }
 
 .side-content-sm {
@@ -214,6 +203,7 @@ h4 {
 .ul-skills {
   text-align: center;
   padding-left: 0;
+  
 }
 
 .li-skills {
@@ -272,4 +262,13 @@ h4 {
 
 .white-text {
   color: white;
+}
+
+.svg-background{
+  background-color: #57A7FF;
+  background-image: url("flat-mountains.svg");
+  background-size: cover;
+}
+.control{
+  text-align: center;
 }
